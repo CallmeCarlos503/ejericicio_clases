@@ -12,17 +12,19 @@
     <?php
 
     $matriz = array(
-        1 => 8,
-        2 => 10,
-        3 => 8,
-        4 => 9,
-        5 => 5,
-        6 => 7,
-        7 => 5,
-        8 => 4,
-        9 => 3,
-        10 => 2
+        "Juan" => 5,
+        "Carlos" => 10,
+        "Bodoque" => 8,
+        "Mendoza" => 9,
+        "Gutierrez" => 5,
+        "Johny" => 7,
+        "Alejandrita" => 5,
+        "Juan" => 4,
+        "Maluma" => 3,
+        "badbunny" => 2
     );
+    print "<pre>\n"; print_r($matriz); print "</pre>\n";
+
     $acumulo = 0;
     $Mayor = 0;
     $menor = 1000;
